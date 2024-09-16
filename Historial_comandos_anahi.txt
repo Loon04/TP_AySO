@@ -1,0 +1,220 @@
+ls
+cd Repo_Gonzalez_Pineda/ 
+git remote -v
+git status
+vagrant exit
+exit
+ls
+history
+history > historial.txt
+ls
+git status
+git clone https://github.com/Loon04/Repo_Gonzalez_Pineda.git
+git status
+git remote -v
+git init
+ls
+cd Repo_Gonzalez_Pineda/
+git status 
+history 
+history > historial.txt
+git status
+git commit -m "primer"
+git add -
+git add .
+git status
+git commit -m "primer"
+git push
+ls
+ls -l
+ls -la
+ls
+ls -a
+man ls
+pdw
+pwd
+whoami
+echo "hola"
+cat README 
+sd repogit/
+cd repogit/
+ls
+git clone https://github.com/Loon04/Repo_Gonzalez_Pineda.git
+ls
+cd Repo_Gonzalez_Pineda/
+ls
+history
+history > historial.txt
+ls
+git status
+git add .
+git status
+git commit -m "primer push"
+git config --global anahigonzalezj@gmail.com
+git config --global user.email "anahigonzalezj@gmail.com"
+git commit -m "primer push"
+git push
+git push 
+pwd
+echo $HOME
+ls
+ls -l
+ls -la
+ssh-keygen -t ed25519
+ls -la
+cd .ssh
+ls
+ls -l
+cat id_ed25519.pub
+cd ..
+ls -l
+cd repogit/
+ls -l
+git clone git@github.com:Loon04/Repo_Gonzalez_Pineda.git
+cd Repo_Gonzalez_Pineda/
+ls
+ls -l
+echo "hola"
+echo "hola, buenos dias" > hola.txt
+ls -l
+git status
+git add .
+git status
+git commit -m "segundo intento"
+git push
+git push 
+cd ..
+cd REPO
+cd Repo_Gonzalez_Pineda/
+ls
+ls -l
+head /etc/passwd
+cat /etc/passwd | grep vagrant
+cat /etc/passwd | grep bash
+cat /etc/passwd | grep -n bash
+cat /etc/passwd | grep -n nologin
+cat /etc/passwd | grep -v nologin
+cat /etc/passwd | grep -v nologin > "archivo1.txt"
+ls
+cat archivo1.txt 
+cat /etc/passwd | grep -nv nologin |tail -n3
+sudo cat /etc/shadow
+lspci
+lscpu
+lscpu | grep -i model 
+lscpu | grep -i model | head -1
+lscpu | grep -i model | head -1 > info_proc.txt
+ls
+cat info_proc.txt 
+ls -l
+cat archivo1.txt 
+sort archivo1.txt 
+history
+git status
+cat << FIN > bloque_cat.txt
+esta es una prueba en VM
+hoy es 10/09
+en 2 días es mi cumpleaños
+FIN
+
+echo "chau" >> hola.txt 
+cat hola.txt 
+echo "hola" > chau.txt
+cat hola.txt chau.txt > saludos-txt
+git status
+git add .
+git status
+git commit -m "modificacion de textos"
+git push
+exit
+cd
+mkdir repogit
+cd repogit
+ls
+git clone git@github.com:Loon04/TP_AySO.git
+pwd
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+clear
+cat /etc/os-release
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i Home_url /etc/os-release
+id -un
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt
+ls
+git add .
+git status
+git commit -m "ADD: agregando 1er ejercicio sobre datos_usuarios.txt"
+git status
+head /proc/cpuinfo | grep "model name" >> datos_usuario.txt
+git status
+git add .
+git status
+git commit -m "feat: Añadiendo informacion del CPU"
+cat /etc/passwd
+man grep
+grep -v nologin /etc/passwd | head > lista_ordenanda
+man sort
+sort lista_ordenada t":" -k7
+ls
+sort lista_ordenanda t":" -k7
+sort lista_ordenanda -t":" -k7
+sort lista_ordenanda -t":" -k7 | head
+rm lista_ordenanda
+ls
+grep -v nologin /etc/passwd | sort -t":" -k7 > lista_ordenada
+ls
+cd lista_ordenada
+cat lista_ordenada 
+git status
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+tcpdump
+man tcpdump
+aprops
+apropos
+apropos grep
+apropos calculator
+apropos search
+apropos sort
+apropos apropos
+apropos rmdir
+makewhatis
+apropos rmdir
+apropos apropos
+sudo mandb
+apropos apropos
+tcpdump
+apropos dump traffic
+apropos "dump traffic"
+echo apropos "dump traffic" > comando_dump_net
+git status
+git add .
+git commit -m "ADD: Comando para capturar y analizar trafico de red"
+heredoc
+cat <<fin >> README.md 
+Alumno: Anahi Gonzalez Pineda
+Division: 115
+Turno: Mañana 
+fin
+
+cat README.md 
+git add .
+git commit -m "feat: Informacion del alumno, division y turno"
+git status
+history -a
+history
+man history
+history -a $HOME/.bash_history
+ls
+man ls
+ls -la
+ls -la $HOME history -a $HOME/.bash_history
+history -a $HOME/.bash_history
